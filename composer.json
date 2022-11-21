@@ -1,0 +1,21 @@
+{
+    "name": "tigzzr/apns-push",
+    "description": "Apns Push By PHP",
+    "type": "library",
+    "require": {
+        "php": ">7.1",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tigzzr\\ApnsPush\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zzp",
+            "email": "515709074@qq.com"
+        }
+    ]
+}
