@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Tigzzr\ApnsPush;
 
 use Exception;
+use Tigzzr\ApnsPush\ClientServe;
 
 /**
  * IOS APNS推送相关业务
