@@ -208,9 +208,9 @@ class ApnsServer
 
         return [
             'aps'   => [
-                'alert' => $alert
+                'alert' => $alert,
+                'sound' => 'default',
             ],
-            'sound' => 'default',
         ];
     }
 }
